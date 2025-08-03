@@ -1,14 +1,27 @@
-# 🐧 Step 1: Use a base image with Java
-FROM openjdk:17-jdk-slim
+# -------- 🏗️ Stage 1: Build the app using Maven --------
+FROM maven:3.9.6-eclipse-temurin-17 AS builder
 
-# 📂 Step 2: Create working directory inside the container
+# Make directory for the app
 WORKDIR /app
 
-# 📦 Step 3: Copy the built jar file into the container
-COPY target/To-Do-0.0.1-SNAPSHOT.jar app.jar
+# Copy pom.xml and all source files
+COPY . .
 
-# 🚪 Step 4: Expose the Spring Boot default port
+# Build the app and skip tests for faster build
+RUN mvn clean package -DskipTests
+
+
+# -------- 🚀 Stage 2: Run the built JAR --------
+FROM openjdk:17-jdk-slim
+
+# Working directory inside runtime container
+WORKDIR /app
+
+# Copy the built jar from the builder stage
+COPY --from=builder /app/target/*.jar app.jar
+
+# Expose Spring Boot default port
 EXPOSE 8080
 
-# ▶️ Step 5: Run the jar
+# Run the Spring Boot app
 ENTRYPOINT ["java", "-jar", "app.jar"]
