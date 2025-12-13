@@ -13,7 +13,7 @@ public class Controller {
     public Controller(Services services) {
         this.services = services;
     }
-
+    // this is a create api endpoint
     @PostMapping("/create")
     public Entities createEmployee(@RequestBody Entities employee) {
         return services.createEmployee(employee);
