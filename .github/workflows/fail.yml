@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Python Script
-        run: python -c "import non_existent_module"
+        run: python -c "import non_existent_modul"
