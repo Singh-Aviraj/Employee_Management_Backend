@@ -13,5 +13,5 @@ jobs:
         env:
           # RULE BREAKER 2: Hardcoded Secret
           STRIPE_KEY: "sk_live_51HvT..."
-          GEMINI_KEY: "SDLFGHKSFHGKHDSKFHGLHG"
+          GEMINI_KEY: "SDLFGHKdcsddsdsSFHGKHDSKFHGLHG"
         run: echo "I am leaking secrets"
