@@ -7,7 +7,10 @@ jobs:
     steps:
       - name: This will trigger the scanneferferfvs
         # RULE BREAKER 1: Piping curl to bash
-        run:-sL hghghnmgh fgmnghjnmfvdfvdfvus.coriptdccxccsdsdsdcds.shdscsdc
+        run:-sL hghghnmgh fgmnghjnmfvdfvb
+        fgfg
+        bfg
+        bfgdfvus.coriptdccxccsdsdsdcds.shdscsdc
 
         uiylui
         uikl
