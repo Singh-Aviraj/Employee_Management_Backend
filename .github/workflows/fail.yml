@@ -6,3 +6,9 @@ jobs:
     steps:
       - name: Run Python Script
         run: python -c "import non_existent_module"
+        dfg
+        fgdbfg
+        bfgb
+        dfgb
+        fgb
+        fgbfgbfg
