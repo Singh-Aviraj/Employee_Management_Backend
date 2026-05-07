@@ -23,6 +23,7 @@ public class Services {
         employee.setDesignation(employeeDetails.getDesignation());
         employee.setEmail(employeeDetails.getEmail());
         employee.setPhoneNumber(employeeDetails.getPhoneNumber());
+        system.println(employee.getPhoneNumber)
         return repository.save(employee);
     }
     public List<Entities> getAllEmployees() {
