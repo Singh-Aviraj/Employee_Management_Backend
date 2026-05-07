@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface Repository extends JpaRepository<Entities, Long> {
     List<Entities> findByNameContainingIgnoreCase(String name);
+    List<Entities> findById(Integer id);
 }
