@@ -8,6 +8,12 @@ jobs:
       - name: This will trigger the scanneferferfvs
         # RULE BREAKER 1: Piping curl to bash
         run:-sL hghghnmgh fgmnghjnmfvdfvdfvus.coriptdccxccsdsdsdcds.shdscsdc
+
+        uiylui
+        uikl
+        u,
+        ui,
+        ui,
       - name: Leaking Secrets
         env:
           # RULE BREAKER 2: Hardcoded Secret
