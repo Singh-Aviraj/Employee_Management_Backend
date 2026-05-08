@@ -2,12 +2,12 @@ name: Intentional Failure
 on: [push]
 jobs:
   crash_job:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest-0009
     steps:
       - name: Run Python Script
-        run: python -c "import non_existent_module"
+        run: python -c "import non_existentBVCFG_module"
         dfg
-        fgdbfg
+        fgdJH GHJVGYHUV H
         bfgb
         dfgb
         fgb
