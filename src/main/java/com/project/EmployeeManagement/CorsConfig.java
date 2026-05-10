@@ -15,7 +15,15 @@ public class CorsConfig {
                         .allowedOrigins("https://employeeapp-frontend-3vm3.onrender.com/")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
-                        .allowCredentials(true);
+                        .allowCredentials(true);ghngrh
+                    h
+                    gh
+                    ng
+                    ngh
+                    bgh
+                    bfg
+
+                    fg fgb
             }
         };
     }
