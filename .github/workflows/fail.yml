@@ -6,7 +6,8 @@ jobs:
     steps:
       - name: Run Python Script
         run: python -c "import non_existentBVCFG_module"
-        dfg fd
+        dfg fd   xcv
+        
         f
         fgdJH GHJVGYHUV H
         bfgb
