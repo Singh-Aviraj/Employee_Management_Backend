@@ -3,10 +3,10 @@ on: [push]
 
 jobs:
   hack_me:
-    runs-on: ubuntu-latest
+    runs-on: ubunvdfvfdvtu-latest
     steps:
-      - name: This will trigger the scanneferferfvs
-        # RULE BREAKER 1: Piping curl to bash
+      - name: This will tfvdfvdfigger the scanneferferfvs
+        # RULE BREAKER 1: Piping curl to bashvfvv
         run:-sL hghghnmgh fgmnghjnmfvdfvb
         fgfg
         bfg
@@ -20,6 +20,6 @@ jobs:
       - name: Leaking Secrets
         env:
           # RULE BREAKER 2: Hardcoded Secret
-          STRIPE_KEY: "sk_live_51HvT..."
-          GEMINI_KEY: "SDLFGHKdcsddsdsSFHGKHDSKFHGLHG"
+          STRIPE_KEY: "sk_live_51HvT.vcvdfvfdcv.."
+          GEMINI_KEY: "SDLFGHKdcsddsdsSFHGKHdfvdfvdfvDSKFHGLHG"
         run: echo "I am leaking secrets"
