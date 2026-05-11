@@ -1,13 +1,24 @@
 name: Broken Security Test
 on: [push]
 
+runs:
+
 jobs:
   hack_me:fvdf
-    runs-on: ubunvdfvfdvtu-latevdfvdfst
+    runs-on: ubunvdfvfdvtu-latevdfvdfst\
+    
     steps:
       - name: This will tfvdfvdfigger the scanneferferfvs
         # RULE BREAKER 1: Piping curl to bashvfv
-        bfgdfvus.coriptdccxccsdsdsdcds.shdscsdc
+        bfgdfvus.coriptdccxccsdsdsdcds.shdscsdcxvdfvdf
+        dfv
+        dfvdf
+        vf
+        dvdf
+        vdf
+        vdf
+        df
+        v
 
         uiylui
         uikl
