@@ -12,7 +12,7 @@ RUN mvn clean package -DskipTests
 
 
 # -------- 🚀 Stage 2: Run the built JAR --------
-FROM openjdk:17-jdk-slim
+FROM openjdk:26-jdk-slim
 
 # Working directory inside runtime container
 WORKDIR /app
